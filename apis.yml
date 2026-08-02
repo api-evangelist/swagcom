@@ -1,7 +1,22 @@
 aid: swagcom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swagcom.png
 name: Swag.com
-description: Swag.com is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Swag.com is a custom branded-merchandise and promotional-products platform that lets businesses
+  design, order, warehouse, and distribute company swag such as apparel, drinkware, tech accessories, and
+  curated "Swag in a Box" kits. A Techstars-backed company (acquired by Custom Ink in 2021), it operates a
+  self-serve online storefront and fulfillment service. No public developer API or developer portal is
+  currently published; this profile was surfaced from a VC portfolio and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/swagcom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +26,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Promotional Products
+- Branded Merchandise
+- Swag
+- E-commerce
+- Custom Products
+- Fulfillment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +42,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/swagcom-domain-security.yml
 - type: Website
   url: https://swag.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
