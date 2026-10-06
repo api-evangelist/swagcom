@@ -37,7 +37,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Promotional Products
@@ -61,6 +61,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://swag.com/blog/
+  type: Blog
+- url: https://swag.com/blog/feed
+  type: BlogRSS
 - type: ParentCompany
   url: https://apis.io/providers/customink-api/
   name: Custom Ink
