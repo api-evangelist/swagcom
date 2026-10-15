@@ -7,6 +7,7 @@ checked:
 - https://monid.ai/tools/swagcom
 - https://n8n.io/integrations/swagcom/
 - https://zapier.com/apps/swagcom/integrations
+- shopify/integrations/shopify-integration-edges.yml
 summary: null
 marketplace_apps:
 - marketplace: zapier
@@ -148,6 +149,22 @@ edges:
   direction: third-party
   category: Marketing Automation
   partner_url: https://www.invitereferrals.com/
+- partner_name: Shopify (own)
+  partner: shopify
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://apps.shopify.com/swag-com
+  mirror_of: shopify/integrations/shopify-integration-edges.yml
+  apps:
+  - Swag.com
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
 templates:
 - title: Send Slack direct messages when Swag.com distribution statuses change
   url: https://zapier.com/apps/slack/integrations/swagcom/1598097/send-slack-direct-messages-when-swagcom-distribution-statuses-change
