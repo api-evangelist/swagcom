@@ -17,123 +17,7 @@
   evidence: https://zapier.com/apps/google-sheets/integrations/swagcom/1764250/update-swagcom-addresses-for-sending-swag-whenever-new-or-updated-rows-are-detected-in-google-sheets-team-drive
   template: https://zapier.com/apps/google-sheets/integrations/swagcom/1764250/update-swagcom-addresses-for-sending-swag-whenever-new-or-updated-rows-are-detected-in-google-sheets-team-drive
   source: template
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-google-calendar
-  label: Google Calendar
-  partner: google-calendar
-  partner_name: Google Calendar
-  category: Calendar
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/google-calendar
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-microsoft-outlook
-  label: Microsoft Outlook
-  partner: microsoft-outlook
-  partner_name: Microsoft Outlook
-  category: Calendar
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/microsoft-outlook
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-bamboohr
-  label: BambooHR
-  partner: bamboohr
-  partner_name: BambooHR
-  category: HR Talent & Recruitment
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/bamboohr
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-google-forms
-  label: Google Forms
-  partner: google-forms
-  partner_name: Google Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/google-forms
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-swagup
-  label: SwagUp
-  partner_name: SwagUp
-  category: eCommerce
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/swagup
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-google-drive
-  label: Google Drive
-  partner: google-drive
-  partner_name: Google Drive
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/google-drive
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-facebook-lead-ads
-  label: Facebook Lead Ads
-  partner: facebook-lead-ads
-  partner_name: Facebook Lead Ads
-  category: Ads & Conversion
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/facebook-lead-ads
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-leadconnector
-  label: LeadConnector
-  partner_name: LeadConnector
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/leadconnector
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-podio
-  label: Podio
-  partner: podio
-  partner_name: Podio
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/podio
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: swagcom-invitereferrals
-  label: InviteReferrals
-  partner_name: InviteReferrals
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/swagcom/integrations/invitereferrals
-  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: swagcom-shopify-own
@@ -172,4 +56,131 @@
     beta: false
     builder: unknown (not in the directory record)
   status: not-a-workflow
+  arazzo: null
+- slug: swagcom-google-calendar
+  label: Google Calendar
+  partner: google-calendar
+  partner_name: Google Calendar
+  category: Calendar
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/google-calendar
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: swagcom-microsoft-outlook
+  label: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_name: Microsoft Outlook
+  category: Calendar
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/microsoft-outlook
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: swagcom-bamboohr
+  label: BambooHR
+  partner: bamboohr
+  partner_name: BambooHR
+  category: HR Talent & Recruitment
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/bamboohr
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: swagcom-google-forms
+  label: Google Forms
+  partner: google-forms
+  partner_name: Google Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/google-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: swagcom-swagup
+  label: SwagUp
+  partner_name: SwagUp
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/swagup
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: swagcom-google-drive
+  label: Google Drive
+  partner: google-drive
+  partner_name: Google Drive
+  category: File Management & Storage
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/google-drive
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: swagcom-facebook-lead-ads
+  label: Facebook Lead Ads
+  partner: facebook-lead-ads
+  partner_name: Facebook Lead Ads
+  category: Ads & Conversion
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/facebook-lead-ads
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: swagcom-leadconnector
+  label: LeadConnector
+  partner_name: LeadConnector
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/leadconnector
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: swagcom-podio
+  label: Podio
+  partner: podio
+  partner_name: Podio
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/podio
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: swagcom-invitereferrals
+  label: InviteReferrals
+  partner_name: InviteReferrals
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/swagcom/integrations/invitereferrals
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
   arazzo: null
